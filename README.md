@@ -9,6 +9,30 @@ Simple todolist write in django for general use and pipeline automation..
 > With great power comes great responsibility
 
 
+## Requirements for ubuntu
+
+Instalar o python3-pip
+
+$ sudo apt-get install python3-pip
+
+Instalar o mysqlclient
+
+$ sudo apt-get update
+$ sudo apt-get install mysql-client
+$ sudo apt-get install python3-dev default-libmysqlclient-dev build-essential # Debian /
+
+# Instalando o venv
+
+$ sudo pip3 install virtualenv nose coverage nosexcover pylint
+
+# Criando e ativando o venv (dev)
+
+cd ../    
+
+$ virtualenv  --always-copy  venv-django-todolist
+$ source venv-django-todolist/bin/activate
+$ pip install -r requirements.txt
+
 ### Tech
 
 Dillinger uses a number of open source projects to work properly:
@@ -27,7 +51,7 @@ $ cd django-todolist
 $ pip install -r requirements.txt
 $ python manage.py migrate # Running the migrations
 $ python manage.py createsuperuser # Create a superuser
-$ python manage.py runserver
+$ python manage.py runserver 0:8000
 ```
 
 
