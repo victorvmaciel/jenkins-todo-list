@@ -9,7 +9,7 @@ Simple todolist write in django for general use and pipeline automation..
 > With great power comes great responsibility
 
 
-## Requirements for ubuntu
+### Requirements for ubuntu
 
 Instalar o python3-pip
 
@@ -21,11 +21,11 @@ $ sudo apt-get update
 $ sudo apt-get install mysql-client
 $ sudo apt-get install python3-dev default-libmysqlclient-dev build-essential # Debian /
 
-# Instalando o venv
+### Instalando o venv
 
 $ sudo pip3 install virtualenv nose coverage nosexcover pylint
 
-# Criando e ativando o venv (dev)
+### Criando e ativando o venv (dev)
 
 cd ../    
 
