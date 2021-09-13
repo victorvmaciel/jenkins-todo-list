@@ -12,9 +12,9 @@ Simple todolist write in django for general use and pipeline automation..
 ### Requirements for ubuntu
 
 Instalar o python3-pip
-
+```sh
 $ sudo apt-get install python3-pip
-
+```
 Instalar o mysqlclient
 ```sh
 $ sudo apt-get update
