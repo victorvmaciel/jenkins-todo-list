@@ -22,9 +22,9 @@ $ sudo apt-get install mysql-client
 $ sudo apt-get install python3-dev default-libmysqlclient-dev build-essential # Debian /
 ```
 ### Instalando o venv
-
+```sh
 $ sudo pip3 install virtualenv nose coverage nosexcover pylint
-
+```
 ### Criando e ativando o venv (dev)
 
 ```sh
